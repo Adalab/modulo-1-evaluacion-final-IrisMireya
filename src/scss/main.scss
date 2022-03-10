@@ -3,3 +3,10 @@
 @import "layout/footer";
 
 
+* {
+    font-family: $fontfamily;
+}
+
+.section1{
+    color: $darkgreen;
+}
