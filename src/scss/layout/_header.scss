@@ -8,10 +8,28 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-.header .burger {
+.burger {
     height: 24px;
     width: 24px;
-    padding-top: 55px;
+    padding-top: 20px;
     padding-left: 33px;
     padding-right: 43px;
+    display: flex;
+    position: sticky;
+    flex-direction: row;
+    align-items: center;
   }
+.logo {
+    height: 96px;
+    width: 213px;
+    padding-top: 19px;
+    padding-right: 43px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
