@@ -1,24 +1,19 @@
 .section2{
     background-color: $orange;
     color: $white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
 
     &__title{
     font-size: 24px;
-    font-weight: 600;
-    margin: 0;
     }
     &__paragraph{
     font-size: 14px;
+    margin-bottom: 20px;
     }
     &__link{
     color: $white;
     font-size: 16px;
-    font-weight: 600;
-    padding: 50px 20px 50px 15px
     }
 }
