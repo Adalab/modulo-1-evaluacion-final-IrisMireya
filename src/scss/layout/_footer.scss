@@ -1,0 +1,34 @@
+.footer{
+background-color: $darkgreen;
+color: $lightngray;
+text-align: center;
+font-size: 14px;
+line-height: 20px;
+padding-top: 45px;
+padding-bottom: 60px;
+
+&__menu{
+    font-size: 14px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+    &—-links{
+      text-decoration: none;
+      list-style-type: none;
+    }
+}
+}
+.redes-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__ul{
+    display: inline-block;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+
+  }
+}
