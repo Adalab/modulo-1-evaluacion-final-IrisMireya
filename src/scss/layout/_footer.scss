@@ -1,3 +1,7 @@
+h4 {
+  text-align: center;
+}
+
 .footer {
 background-color: $darkgreen;
 color: $lightngray;
@@ -6,8 +10,7 @@ color: $lightngray;
     font-size: 14px;
     text-decoration: none;
     color: $lightngray;
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
 }
 
 &__ul{
@@ -16,7 +19,6 @@ color: $lightngray;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
-  
 }
 
 .redes-container {
