@@ -1,4 +1,4 @@
-.footer{
+.footer {
 background-color: $darkgreen;
 color: $lightngray;
 text-align: center;
@@ -7,32 +7,38 @@ line-height: 20px;
 padding-top: 45px;
 padding-bottom: 60px;
 
-&__menu{
+&__menu--links{
     font-size: 14px;
-    list-style: none;
     text-decoration: none;
-    text-align: center;
+    color: $lightngray;
+}
 
-    &—-links{
-      text-decoration: none;
-      list-style-type: none;
-    }
+&__ul{
+  text-align: center;
+  list-style-type: none;
 }
-}
-.redes-container{
-  display: flex;
+
+.redes-container {
+  display: flex; 
   align-items: center;
   justify-content: center;
+  list-style: none;
+
   &__ul{
     display: inline-block;
     margin: 5px;
     width: 50px;
     height: 50px;
     text-align: center;
-
+    list-style-type: none;
+  }
+  
+  &__logos{
+    width: 24px;
+    height: 26px;
   }
 }
-
+}
 @media all and (min-width: 768px){}
 
 
