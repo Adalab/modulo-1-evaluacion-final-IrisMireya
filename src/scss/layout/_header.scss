@@ -6,62 +6,56 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-}
-.burger {
-    height: 24px;
-    width: 24px;
-    padding-top: 20px;
-    padding-left: 33px;
-    padding-right: 43px;
-    display: flex;
-    position: sticky;
-    flex-direction: row;
-    align-items: center;
-  }
-.logo {
-    height: 96px;
-    width: 213px;
-    padding-top: 19px;
-    padding-right: 43px;
-    padding-left: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-.center {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-.header__title {
-  color: $darkgreen;
-  font-family: $fontfamily;
-  font-size: 24px;
-  font-weight: 600;
-  margin: 100px 0 24px;
-  text-align: center;
-}
-.button1 {
-  background-color: $darkgreen;
-  color: $white;
-  border: 0;
-  width: 176px;
-  height: 48px;
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 24px;
-  margin-left: 64px;
-}
-.center2 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
 
+    &__container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      z-index: 999;
+    
+       &--burger{
+      height: 24px;
+      width: 24px;
+      display: flex;
+      position: fixed;
+      margin-top: 55px;
+      left: 33px;
+
+        &--logo {
+        margin-left: 100px;
+        margin-top: 40px;
+        }
+      }
+    }
+
+    &__container2 {
+      display: flex;
+      flex-direction:column;
+      align-items: center;
+      z-index: 999;
+      align-content: center;
+      flex-wrap: wrap;
+
+      &--title {
+        color: $darkgreen;
+        font-family: $fontfamily;
+        margin: 100px 0 24px;
+        text-align: center;
+        }
+        &--button1 {
+          background-color: $darkgreen;
+          color: $white;
+          text-transform: capitalize;
+          border: 0;
+          width: 176px;
+          height: 48px;
+          font-size: 16px;
+          font-weight: 600;
+        }
+  }
 }
+
+  
 
 @media all and (min-width: 768px){}
 
