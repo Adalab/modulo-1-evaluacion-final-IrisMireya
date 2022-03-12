@@ -5,6 +5,9 @@ h4 {
 .footer {
 background-color: $darkgreen;
 color: $lightngray;
+padding-top: 45px;
+padding-bottom: 60px;
+ 
 
 &__menu--links{
     font-size: 14px;
@@ -27,21 +30,25 @@ color: $lightngray;
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: flex-start;
-  
 
   &__ul {
-    display: inline-block;
-    margin: 5px;
-    width: 50px;
-    height: 50px;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
   
   &__logos {
     width: 24px;
+    height: 26px;
   }
+  
+
 }
+&__button {
+  transform: translatex(40px);
+}
+
 }
 
 @media all and (min-width: 768px){}
