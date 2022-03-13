@@ -59,6 +59,13 @@
           font-weight: 600;
           margin-bottom: 50px;
         }
+        &--button1:hover {
+          width: 352px;
+          height: 96px;
+          background-color: purple;
+          transition: all 500ms ease;
+
+        }
   }
   @media all and (min-width: 1200px) {
     .header__container--burger{

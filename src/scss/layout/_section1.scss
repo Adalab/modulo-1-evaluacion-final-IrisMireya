@@ -2,6 +2,8 @@
     color: $darkgreen;
     font-family: $fontfamily;
     background-color: $beige;
+    padding-top: 5%;
+    padding-bottom: 5%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 50% 60% 50%;

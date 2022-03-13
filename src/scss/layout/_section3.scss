@@ -64,11 +64,22 @@
             grid-column-start: 2;
             grid-column-end: 3;
             }
+            &__button2:hover {
+                width: 352px;
+                height: 96px;
+                background-color: purple;
+                transition: all 500ms ease;
+      
+              }
         
             &__img {
                 width: 100%;
+                height: 100%;
                 grid-column-start: 6;
                 grid-column-end: 12;
+                grid-row-start: 1;
+                grid-row-end: 4;
+                margin-left: 16%;
               }
     }
 }
