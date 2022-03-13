@@ -3,26 +3,53 @@
     font-family: $fontfamily;
     background-color: $beige;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 60% 50%;
+    grid-gap: 0;
 
-   &__article--title{
-        font-size: 24px;
+    &__item1{
+        grid-column-start: 1;
+        grid-column-end: 12;
         text-align: center;
     }
-    &__title1{
+    &__item2{
+        grid-column-start: 5;
+        grid-column-end:8;
+        text-align: center;
+
         text-align: center;
     }
-    &__title2{
+    &__item3{
+        grid-column-start: 5;
+        grid-column-end:8;
         text-align: center;
     }
-    &__title3{
+    &__item4{
+        grid-column-start: 5;
+        grid-column-end:8;
+        text-align: center;
+    }
+
+@media all and (min-width: 768px){
+    &__item1{
+        grid-column-start: 1;
+        grid-column-end: 12;
+        text-align: center;
+    }
+    &__item2{
+        grid-column-start: 2;
+        grid-column-end: 4;
+        text-align: center;
+    }
+    &__item3{
+        grid-column-start: 5;
+        grid-column-end: 8;
+        text-align: center;
+    }
+    &__item4{
+        grid-column-start: 9;
+        grid-column-end: 11;
         text-align: center;
     }
 }
-
-@media all and (min-width: 768px){}
-
-
-@media all and (min-width: 1200px){}
+}
