@@ -48,7 +48,7 @@
         margin: 100px 0 24px;
         text-align: center;
         }
-        &--button1 {
+        &--button1{
           background-color: $darkgreen;
           color: $white;
           text-transform: capitalize;
@@ -59,12 +59,11 @@
           font-weight: 600;
           margin-bottom: 50px;
         }
-        &--button1:hover {
-          width: 352px;
-          height: 96px;
-          background-color: purple;
-          transition: all 500ms ease;
-
+            &--button1:hover {
+            width: 352px;
+            height: 96px;
+            background-color: purple;
+            transition: all 1000ms ease;
         }
   }
   @media all and (min-width: 1200px) {
